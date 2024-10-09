@@ -15,10 +15,4 @@ To test and deploy the smart contract follow the steps below.
    - `npx hardhat node`
    - `npx hardhat run --network localhost ./scripts/deploy.js`
 
-## Using the Frontend
 
-1. Install the [Liveserver Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode.
-2. Open [base.html](frontend/base.html)
-3. Click the button that says "Go Live" in the bottom right hand corner of your VSCode.
-4. Import any accounts you need into MetaMask and change your MetaMask network to "Hardhat".
-5. Interact with the contract!
